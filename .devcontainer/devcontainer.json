@@ -1,0 +1,10 @@
+{
+  "forwardPorts": [8006],
+  "portsAttributes": {
+    "8006": {
+      "label": "Windows 10",
+      "onAutoForward": "openBrowser"
+    }
+  },
+  "postStartCommand": "/workspaces/PC-Free/start-windows.sh"
+}
